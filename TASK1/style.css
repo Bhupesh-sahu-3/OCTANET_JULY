@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Orbitron:wght@900&family=Roboto+Slab:wght@400;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Orbitron:wght@900&family=Roboto+Slab:wght@400;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Orbitron:wght@900&family=Permanent+Marker&family=Roboto+Slab:wght@400;900&family=Rubik+Dirt&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Changa&family=Josefin+Sans:ital,wght@1,700&family=Orbitron:wght@900&family=Permanent+Marker&family=Roboto+Slab:wght@400;900&family=Rubik+Dirt&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+
+.topleft {
+  width: 50%;
+}
+
+.topright {
+  width: 50%;
+}
+
+.section1 {
+  background-color: white;
+  max-height: 100vh;
+}
+
+.dumbellimg {
+  width: 300px;
+}
+
+.topright .man {
+  width: 350px;
+}
+
+.section2 {
+  /* margin-bottom: 20px; */
+  padding-left: 63px;
+  padding-right: 63px;
+  background-color: antiquewhite;
+  padding: 73px;
+}
+
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.section2 .h1 {
+  font-size: 2rem;
+}
+
+.box {
+  border-radius: 20px;
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 20vw;
+  font-family: "Changa", sans-serif;
+  border: 2px solid orange;
+  text-align: center;
+}
+
+.box h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.box ul {
+  list-style-type: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.highlighted {
+  font-size: x-large;
+}
+
+.plantable {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 {
+  padding: 73px;
+}
+
+.section3 table {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 140px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid orangered;
+  padding: 15px 0;
+}
+
+.section3 table td {
+  border-bottom: 2px solid orangered;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+}
